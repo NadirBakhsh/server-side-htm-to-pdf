@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<style>
+			.page {
+				width: 100%;
+				height: auto;
+				page-break-after: always;
+			}
+
+			.bold {
+				font-weight: 700;
+			}
+
+			.italic {
+				font-style: italic;
+			}
+
+			.medium {
+				font-weight: 500;
+			}
+
+			.underline {
+				text-decoration: underline;
+				offset: 4px;
+			}
+
+			.align-center {
+				text-align: center;
+			}
+
+			.align-right {
+				text-align: right;
+			}
+
+			.position-right {
+				float: right;
+			}
+
+			.position-center {
+				float: center;
+			}
+
+			.divider {
+				border: 2px solid #4f4b4b;
+			}
+
+			.inlineBlock {
+				display: inline-block;
+			}
+			.block {
+				display: block;
+			}
+
+			.white-space {
+				white-space: pre;
+			}
+
+			.w-full {
+				width: 100%;
+			}
+			.leading-0 {
+				line-height: 4px;
+			}
+
+			ol.alpha-list {
+				counter-reset: alpha-counter;
+				list-style-type: none;
+				padding-left: 24px;
+			}
+
+			ol.number-list {
+				counter-reset: number-counter;
+				list-style-type: none;
+				padding-left: 24px;
+			}
+
+			ol.roman-bracket-list {
+				counter-reset: roman-counter;
+				list-style-type: none;
+				padding-left: 24px;
+			}
+
+			ol.roman-bracket-list li,
+			ol.alpha-list li,
+			ol.number-list li {
+				position: relative;
+				padding-left: 3em;
+				margin-bottom: 0.5em;
+			}
+
+			ol.roman-bracket-list li:before {
+				counter-increment: roman-counter;
+				content: '(' counter(roman-counter, lower-roman) ') ';
+				position: absolute;
+				left: 0;
+				width: 2em;
+				text-align: right;
+			}
+
+			ol.alpha-list li:before {
+				counter-increment: alpha-counter;
+				content: '(' counter(alpha-counter, lower-alpha) ') ';
+				position: absolute;
+				left: 0;
+				width: 2em;
+				text-align: right;
+			}
+
+			ol.upper-alpha-list li:before {
+				content: '(' counter(alpha-counter, upper-alpha) ') ';
+			}
+
+			ol.number-list li:before {
+				counter-increment: number-counter;
+				content: '(' counter(number-counter) ') ';
+				position: absolute;
+				left: 0;
+				width: 2em;
+				text-align: right;
+			}
+
+			li {
+				padding: 4px 0px;
+			}
+		</style>
+	</head>
+	<body style="padding: 20px">
+		<!-- page 1 -->
+		<div class="page">
+			<p class="align-right bold">Exhibit 4.2</p>
+			<p class="align-center bold">SUBSCRIPTION AGREEMENT</p>
+
+			<p>
+				<span class="bold">INVESTMENT INVOLVES A HIGH DEGREE OF RISK.</span>
+				THIS INVESTMENT IS SUITABLE ONLY FOR PERSONS WHO CAN BEAR THE ECONOMIC
+				RISK FOR AN INDEFINITE PERIOD OF TIME AND WHO CAN AFFORD TO LOSE THEIR
+				ENTIRE INVESTMENT. FURTHERMORE, INVESTORS MUST UNDERSTAND THAT SUCH
+				INVESTMENT IS ILLIQUID AND IS EXPECTED TO CONTINUE TO BE ILLIQUID FOR AN
+				INDEFINITE PERIOD OF TIME. NO PUBLIC MARKET EXISTS FOR THE SECURITIES,
+				AND NO PUBLIC MARKET IS EXPECTED TO DEVELOP FOLLOWING THIS OFFERING.
+			</p>
+
+			<p>
+				<span class="bold"
+					>THE SECURITIES OFFERED HEREBY HAVE NOT BEEN REGISTERED UNDER THE
+					SECURITIES ACT OF 1933, AS AMENDED (THE “ACT”), OR ANY STATE
+					SECURITIES OR BLUE SKY LAWS AND ARE BEING OFFERED AND SOLD IN RELIANCE
+					ON EXEMPTIONS FROM THE REGISTRATION REQUIREMENTS OF THE ACT AND STATE
+					SECURITIES OR BLUE SKY LAWS.</span
+				>
+				ALTHOUGH AN OFFERING STATEMENT HAS BEEN FILED WITH THE SECURITIES AND
+				EXCHANGE COMMISSION (THE “SEC”), THAT OFFERING STATEMENT DOES NOT
+				INCLUDE THE SAME INFORMATION THAT WOULD BE INCLUDED IN A REGISTRATION
+				STATEMENT UNDER THE ACT. THE SECURITIES HAVE NOT BEEN APPROVED OR
+				DISAPPROVED BY THE SEC, ANY STATE SECURITIES COMMISSION OR OTHER
+				REGULATORY AUTHORITY, NOR HAVE ANY OF THE FOREGOING AUTHORITIES PASSED
+				UPON THE MERITS OF THIS OFFERING OR THE ADEQUACY OR ACCURACY OF THE
+				SUBSCRIPTION AGREEMENT OR ANY OTHER MATERIALS OR INFORMATION MADE
+				AVAILABLE TO SUBSCRIBER IN CONNECTION WITH THIS OFFERING.
+			</p>
+
+			<p>
+				<span class="bold"
+					>INVESTORS WHO ARE NOT “ACCREDITED INVESTORS” (AS THAT TERM IS DEFINED
+					IN SECTION 501 OF REGULATION D PROMULGATED UNDER THE SECURITIES ACT)
+					ARE SUBJECT TO LIMITATIONS ON THE AMOUNT THEY MAY INVEST, AS SET OUT
+					IN SECTION 4.</span
+				>
+				. THE COMPANY IS RELYING ON THE REPRESENTATIONS AND WARRANTIES SET FORTH
+				BY EACH SUBSCRIBER IN THIS SUBSCRIPTION AGREEMENT AND THE OTHER
+				INFORMATION PROVIDED BY SUBSCRIBER IN CONNECTION WITH THIS OFFERING TO
+				DETERMINE THE APPLICABILITY TO THIS OFFERING OF EXEMPTIONS FROM THE
+				REGISTRATION REQUIREMENTS OF THE SECURITIES ACT.
+			</p>
+
+			<p>
+				<span class="bold"
+					>THE OFFERING MATERIALS MAY CONTAIN FORWARD-LOOKING STATEMENTS AND
+					INFORMATION RELATING TO, AMONG OTHER THINGS, THE COMPANY, ITS BUSINESS
+					PLAN AND STRATEGY, AND ITS INDUSTRY</span
+				>
+				THESE FORWARD-LOOKING STATEMENTS ARE BASED ON THE BELIEFS OF,
+				ASSUMPTIONS MADE BY, AND INFORMATION CURRENTLY AVAILABLE TO THE
+				COMPANY’S MANAGEMENT. WHEN USED IN THE OFFERING MATERIALS, THE WORDS
+				“ESTIMATE,” “PROJECT,” “BELIEVE,” “ANTICIPATE,” “INTEND,” “EXPECT” AND
+				SIMILAR EXPRESSIONS ARE INTENDED TO IDENTIFY FORWARD-LOOKING STATEMENTS,
+				WHICH CONSTITUTE FORWARD LOOKING STATEMENTS. THESE STATEMENTS REFLECT
+				MANAGEMENT’S CURRENT VIEWS WITH RESPECT TO FUTURE EVENTS AND ARE SUBJECT
+				TO RISKS AND UNCERTAINTIES THAT COULD CAUSE THE COMPANY’S ACTUAL RESULTS
+				TO DIFFER MATERIALLY FROM THOSE CONTAINED IN THE FORWARD-LOOKING
+				STATEMENTS. INVESTORS ARE CAUTIONED NOT TO PLACE UNDUE RELIANCE ON THESE
+				FORWARD-LOOKING STATEMENTS, WHICH SPEAK ONLY AS OF THE DATE ON WHICH
+				THEY ARE MADE. THE COMPANY DOES NOT UNDERTAKE ANY OBLIGATION TO REVISE
+				OR UPDATE THESE FORWARD-LOOKING STATEMENTS TO REFLECT EVENTS OR
+				CIRCUMSTANCES AFTER SUCH DATE OR TO REFLECT THE OCCURRENCE OF
+				UNANTICIPATED EVENTS.
+			</p>
+
+			<p>
+				<span class="bold"
+					>THE COMPANY MAY NOT BE OFFERING THE SECURITIES IN EVERY STATE.</span
+				>
+				. THE OFFERING MATERIALS DO NOT CONSTITUTE AN OFFER OR SOLICITATION IN
+				ANY STATE OR JURISDICTION IN WHICH THE SECURITIES ARE NOT BEING OFFERED
+			</p>
+
+			<p>
+				<span class="bold"
+					>THE COMPANY RESERVES THE RIGHT IN ITS SOLE DISCRETION AND FOR ANY
+					REASON WHATSOEVER TO MODIFY, AMEND AND/OR WITHDRAW ALL OR A PORTION OF
+					THE OFFERING AND/OR ACCEPT OR REJECT IN WHOLE OR IN PART ANY
+					PROSPECTIVE INVESTMENT IN THE SECURITIES OR TO ALLOT TO ANY
+					PROSPECTIVE INVESTOR LESS THAN THE AMOUNT OF SECURITIES SUCH INVESTOR
+					DESIRES TO PURCHASE.</span
+				>
+				. EXCEPT AS OTHERWISE INDICATED, THE OFFERING MATERIALS SPEAK AS OF
+				THEIR DATE. NEITHER THE DELIVERY NOR THE PURCHASE OF THE SECURITIES
+				SHALL, UNDER ANY CIRCUMSTANCES, CREATE ANY IMPLICATION THAT THERE HAS
+				BEEN NO CHANGE IN THE AFFAIRS OF THE COMPANY SINCE THAT DATE.
+			</p>
+		</div>
+
+		<!-- page 2 -->
+		<div class="page">
+			<div class="w-full">
+				<p class="leading-0">TO: Next Thing Technologies Inc</p>
+				<p
+					style="padding-left: 26px"
+					class="leading-0">
+					2180 Vista Way Unit B, #1096c
+				</p>
+				<p
+					style="padding-left: 26px"
+					class="leading-0">
+					Oceanside, California 92054
+				</p>
+			</div>
+			<p>Ladies and Gentlemen:</p>
+			<p class="bold underline">1. Subscription.</p>
+			<p>
+				(a) The undersigned (<span class="bold italic">“Subscriber”</span>)
+				hereby subscribes for and agrees to purchase Class A Common Stock (the
+				<span class="bold italic">“Securities”</span>) , of Next Thing
+				Technology Inc., a Delaware corporation (the
+				<span class="bold italic">“Company”</span>) , at a purchase price of
+				$3.00 per share of Class A Common Stock (the
+				<span class="bold italic">“Per Security Price”</span>), upon the terms
+				and conditions set forth herein. The minimum subscription is $150. The
+				rights of the Class A Common Stock are as set forth in the Restated
+				Certificate of Incorporation, filed as Exhibit 2.1 to the Offering
+				Statement of the Company filed with the SEC (the
+				<span class="bold italic">“Offering Statement”</span>).
+			</p>
+			<p>
+				(b) Subscriber understands that the Securities are being offered
+				pursuant to an offering circular (the
+				<span class="bold italic">“Offering Circular”</span>) filed with the SEC
+				as part of the Offering Statement (SEC File No. [X]), as may be amended
+				from time to time. By executing this Subscription Agreement as provided
+				herein, Subscriber acknowledges that Subscriber has received access to
+				this Subscription Agreement, copies of the Offering Circular and
+				Offering Statement including exhibits thereto and any other information
+				required by the Subscriber to make an investment decision.
+			</p>
+			<p>
+				(c) The Subscriber’s subscription may be accepted or rejected in whole
+				or in part, at any time prior to a Closing Date (as hereinafter
+				defined), by the Company at its sole discretion. Upon the expiration of
+				the period specified in Subscriber’s state for notice filings before
+				sales may be made in such state, if any, the subscription may no longer
+				be revoked at the option of the Subscriber. In addition, the Company, at
+				its sole discretion, may allocate to Subscriber only a portion of the
+				number of Securities Subscriber has subscribed for. The Company will
+				notify Subscriber whether this subscription is accepted (whether in
+				whole or in part) or rejected. If Subscriber’s subscription is rejected,
+				Subscriber’s payment (or portion thereof if partially rejected) will be
+				returned to Subscriber without interest and all of Subscriber’s
+				obligations hereunder shall terminate.
+			</p>
+			<p>
+				(d) The aggregate number of Securities sold shall not exceed 25,000,000
+				(the <span class="bold italic">“Maximum Offering”</span>). The Company
+				may accept subscriptions until the termination of the Offering in
+				accordance with its terms (the
+				<span class="bold italic">“Termination Date”</span>). The Company may
+				elect at any time to close all or any portion of this offering, on
+				various dates at or prior to the Termination Date (each a
+				<span class="bold italic">“Closing Date”</span>).
+			</p>
+			<p>
+				(e) In the event of rejection of this subscription in its entirety, or
+				in the event the sale of the Securities (or any portion thereof) is not
+				consummated for any reason, this Subscription Agreement shall have no
+				force or effect, except for Section 5 hereof, which shall remain in
+				force and effect.
+			</p>
+			<p class="bold underline">2. Purchase Procedure.</p>
+			<p>
+				<span class="bold underline">(a) Payment.</span> The purchase price for
+				the Securities shall be paid simultaneously with the execution and
+				delivery to the Company of the signature page of this Subscription
+				Agreement. Subscriber shall deliver a signed copy of this Subscription
+				Agreement, along with payment for the aggregate purchase price of the
+				Securities by a check for available funds made payable to “XXXX”, by ACH
+				electronic transfer or wire transfer to an account designated by the
+				Company, or by any combination of such methods.
+			</p>
+			<p>
+				<span class="bold underline">(b) Escrow arrangements. </span>
+				The company has not retained the services of an escrow agent. The
+				undersigned shall receive notice and evidence of the digital entry of
+				the number of the Securities owned by undersigned reflected on the books
+				and records of the Company and verified by Pacific Stock Transfer LLC,
+				(the <span class="bold italic">“Transfer Agent”</span>), which books and
+				records shall bear a notation that the Securities were sold in reliance
+				upon Regulation A.
+			</p>
+			<p>
+				<span class="bold underline">(c) Transaction Fees.</span> Subscriber
+				will be responsible for payment processing fees paid directly to a
+				third-party payment services processor at the time of investment. This
+				fee is not considered part of the cost basis of the subscribed
+				Securities. The payment processing fess shall count against the per
+				investor limit set out in Section 4(d)(ii) below.
+			</p>
+		</div>
+
+		<!-- page 3 -->
+		<div class="page">
+			<p class="bold underline">
+				3. Representations and Warranties of the Company
+			</p>
+			<p>
+				The Company represents and warrants to Subscriber that the following
+				representations and warranties are true and complete in all material
+				respects as of the date of each Closing Date, except as otherwise
+				indicated For purposes of this Agreement, an individual shall be deemed
+				to have “knowledge” of a particular fact or other matter if such
+				individual is actually aware of such fact. The Company will be deemed to
+				have “knowledge” of a particular fact or other matter if one of the
+				Company’s current officers has, or at any time had, actual knowledge of
+				such fact or other matter.
+			</p>
+			<p>
+				<span class="bold underline">(a) Organization and Standing.</span>
+				The Company is a corporation duly formed, validly existing and in good
+				standing under the laws of the State of Delaware. The Company has all
+				requisite power and authority to own and operate its properties and
+				assets, to execute and deliver this Subscription Agreement, and any
+				other agreements or instruments required hereunder. The Company is duly
+				qualified and is authorized to do business and is in good standing as a
+				foreign corporation in all jurisdictions in which the nature of its
+				activities and of its properties (both owned and leased) makes such
+				qualification necessary, except for those jurisdictions in which failure
+				to do so would not have a material adverse effect on the Company or its
+				business.
+			</p>
+			<p>
+				<span class="bold underline">(b) Issuance of the Securities</span>
+				The issuance, sale and delivery of the Securities in accordance with
+				this Subscription Agreement has been duly authorized by all necessary
+				corporate action on the part of the Company. The Securities, when so
+				issued, sold and delivered against payment therefor in accordance with
+				the provisions of this Subscription Agreement, will be duly and validly
+				issued, fully paid and non-assessable.
+			</p>
+			<p>
+				<span class="bold underline">(c) Authority for Agreement.</span>
+				The execution and delivery by the Company of this Subscription Agreement
+				and the consummation of the transactions contemplated hereby (including
+				the issuance, sale and delivery of the Securities) are within the
+				Company’s powers and have been duly authorized by all necessary
+				corporate action on the part of the Company. Upon full execution hereof
+				as provided herein, this Subscription Agreement shall constitute a valid
+				and binding agreement of the Company, enforceable against the Company in
+				accordance with its terms, except (i) as limited by applicable
+				bankruptcy, insolvency, reorganization, moratorium, and other laws of
+				general application affecting enforcement of creditors’ rights
+				generally, (ii) as limited by laws relating to the availability of
+				specific performance, injunctive relief, or other equitable remedies and
+				(iii) with respect to provisions relating to indemnification and
+				contribution, as limited by considerations of public policy and by
+				federal or state securities laws.
+			</p>
+			<p>
+				<span class="bold underline">(d) No filings</span>
+				Assuming the accuracy of the Subscriber’s representations and warranties
+				set forth in Section 4 hereof, no order, license, consent, authorization
+				or approval of, or exemption by, or action by or in respect of, or
+				notice to, or filing or registration with, any governmental body, agency
+				or official is required by or with respect to the Company in connection
+				with the execution, delivery and performance by the Company of this
+				Subscription Agreement except (i) for such filings as may be required
+				under Regulation A or under any applicable state securities laws, (ii)
+				for such other filings and approvals as have been made or obtained, or
+				(iii) where the failure to obtain any such order, license, consent,
+				authorization, approval or exemption or give any such notice or make any
+				filing or registration would not have a material adverse effect on the
+				ability of the Company to perform its obligations hereunder.
+			</p>
+			<p>
+				<span class="bold underline">(e) Capitalization</span>
+				The authorized and outstanding securities of the Company immediately
+				prior to the initial investment in the Securities is as set forth
+				“Securities Being Offered” in the Offering Circular. Except as set forth
+				in the Offering Circular, there are no outstanding options, warrants,
+				rights (including conversion or preemptive rights and rights of first
+				refusal), or agreements of any kind (oral or written) for the purchase
+				or acquisition from the Company of any of its securities.
+			</p>
+			<p>
+				<span class="bold underline">(f) Financial statements</span>
+				Complete copies of the Company’s financial statements meeting the
+				requirements of Form 1-A under the Securities Act (the “Financial
+				Statements”) have been made available to the Subscriber and appear in
+				the Offering Circular. The Financial Statements are based on the books
+				and records of the Company and fairly present in all material respects
+				the financial condition of the Company as of the respective dates they
+				were prepared and the results of the operations and cash flows of the
+				Company for the periods indicated. The auditing firm, or each firm,
+				which has audited the Financial Statements, is an independent accounting
+				firm within the rules and regulations adopted by the SEC.
+			</p>
+			<p>
+				<span class="bold underline">(g) Proceeds.</span>
+				The Company shall use the proceeds from the issuance and sale of the
+				Securities as set forth in “Use of Proceeds” in the Offering Circular.
+			</p>
+			<p>
+				<span class="bold underline">(h) Litigation.</span>
+				Except as set forth in the Offering Circular, there is no pending
+				action, suit, proceeding, arbitration, mediation, complaint, claim,
+				charge or investigation before any court, arbitrator, mediator or
+				governmental body, or to the Company’s knowledge, currently threatened
+				in writing (a) against the Company or (b) against any consultant,
+				officer, manager, director or key employee of the Company arising out of
+				his or her consulting, employment or board relationship with the Company
+				or that could otherwise materially impact the Company.
+			</p>
+		</div>
+
+		<!-- page 4 -->
+		<div class="page">
+			<p class="bold underline">
+				4. Representations and Warranties of Subscriber.
+			</p>
+			<p>
+				r. By executing this Subscription Agreement, Subscriber (and, if
+				Subscriber is purchasing the Securities subscribed for hereby in a
+				fiduciary capacity, the person or persons for whom Subscriber is so
+				purchasing) represents and warrants, which representations and
+				warranties are true and complete in all material respects as of such
+				Subscriber’s respective Closing Date(s):
+			</p>
+			<p>
+				<span class="bold underline">(a) Requisite Power and Authority.</span>
+				Such Subscriber has all necessary power and authority under all
+				applicable provisions of law to execute and deliver this Subscription
+				Agreement, and other agreements required hereunder and to carry out
+				their provisions. All action on Subscriber’s part required for the
+				lawful execution and delivery of this Subscription Agreement and other
+				agreements required hereunder have been or will be effectively taken
+				prior to the Closing Date. Upon their execution and delivery, this
+				Subscription Agreement and other agreements required hereunder will be
+				valid and binding obligations of Subscriber, enforceable in accordance
+				with their terms, except (a) as limited by applicable bankruptcy,
+				insolvency, reorganization, moratorium or other laws of general
+				application affecting enforcement of creditors’ rights and (b) as
+				limited by general principles of equity that restrict the availability
+				of equitable remedies.
+			</p>
+			<p>
+				<span class="bold underline">(b) Investment Representations</span>
+				Subscriber understands that the Securities have not been registered
+				under the Securities Act of 1933, as amended (the “Securities Act”).
+				Subscriber also understands that the Securities are being offered and
+				sold pursuant to an exemption from registration contained in the
+				Securities Act based in part upon Subscriber’s representations contained
+				in this Subscription Agreement.
+			</p>
+			<p>
+				<span class="bold underline"
+					>(c) Illiquidity and Continued Economic Risk</span
+				>
+				. Subscriber acknowledges and agrees that there is no ready public
+				market for the Securities and that there is no guarantee that a market
+				for their resale will ever exist. Subscriber must bear the economic risk
+				of this investment indefinitely and the Company has no obligation to
+				list the Securities on any market or take any steps (including
+				registration under the Securities Act or the Securities Exchange Act of
+				1934, as amended) with respect to facilitating trading or resale of the
+				Securities. Subscriber acknowledges that Subscriber is able to bear the
+				economic risk of losing Subscriber’s entire investment in the
+				Securities. Subscriber also understands that an investment in the
+				Company involves significant risks and has taken full cognizance of and
+				understands all of the risk factors relating to the purchase of
+				Securities.
+			</p>
+			<p>
+				<span class="bold underline"
+					>(d) Accredited Investor Status or Investment Limits.</span
+				>
+				Subscriber represents that either:
+			</p>
+			<ol class="roman-bracket-list">
+				<li>
+					Subscriber is an “accredited investor” within the meaning of Rule 501
+					of Regulation D under the Securities Act. Subscriber represents and
+					warrants that it meets one or more of the criteria set forth in
+					Appendix A attached hereto; or
+				</li>
+				<li>
+					The purchase price of the Securities (including any fee to be paid by
+					the Subscriber), together with any other amounts previously used to
+					purchase Securities in this offering, does not exceed 10% of the
+					greater of the Subscriber’s annual income or net worth.
+				</li>
+			</ol>
+			<p>
+				Subscriber represents that to the extent it has any questions with
+				respect to its status as an accredited investor, or the application of
+				the investment limits, it has sought professional advice.
+			</p>
+			<p>
+				<span class="bold underline">(e) Shareholder information.</span>
+				Within five days after receipt of a request from the Company, the
+				Subscriber hereby agrees to provide such information with respect to its
+				status as a shareholder (or potential shareholder) and to execute and
+				deliver such documents as may reasonably be necessary to comply with any
+				and all laws and regulations to which the Company is or may become
+				subject.
+				<span class="bold"
+					>Subscriber further agrees that in the event it transfers any
+					Securities, it will require the transferee of such Securities to agree
+					to provide such information to the Company as a condition of such
+					transfer.</span
+				>
+			</p>
+			<p>
+				<span class="bold underline">(f) Valuation.</span>
+				The Subscriber acknowledges that the price of the Securities was set by
+				the Company on the basis of the Company’s internal valuation and no
+				warranties are made as to value. The Subscriber further acknowledges
+				that future offerings of Securities may be made at lower valuations,
+				with the result that the Subscriber’s investment will bear a lower
+				valuation.
+			</p>
+			<p>
+				<span class="bold underline">(g) Domicile</span>
+				Subscriber maintains Subscriber’s domicile (and is not a transient or
+				temporary resident) at the address shown on the signature page.
+			</p>
+			<p>
+				<span class="bold underline">(h) No Brokerage Fees</span>
+				There are no claims for brokerage commission, finders’ fees or similar
+				compensation in connection with the transactions contemplated by this
+				Subscription Agreement or related documents based on any arrangement or
+				agreement binding upon Subscriber.
+			</p>
+		</div>
+
+		<!-- page 5 -->
+		<div class="page">
+			<p>
+				<span class="bold underline">(i) Foreign Investors</span>
+				If Subscriber is not a United States person (as defined by Section
+				7701(a)(30) of the Internal Revenue Code of 1986, as amended),
+				Subscriber hereby represents that it has satisfied itself as to the full
+				observance of the laws of its jurisdiction in connection with any
+				invitation to subscribe for the Securities or any use of this
+				Subscription Agreement, including
+			</p>
+			<ol class="roman-bracket-list">
+				<li>
+					the legal requirements within its jurisdiction for the purchase of the
+					Securities
+				</li>
+				<li>any foreign exchange restrictions applicable to such purchase</li>
+				<li>any governmental or other consents that may need to be obtained</li>
+				<li>
+					the income tax and other tax consequences, if any, that may be
+					relevant to the purchase, holding, redemption, sale, or transfer of
+					the Securities. Subscriber’s subscription and payment for and
+					continued beneficial ownership of the Securities will not violate any
+					applicable securities or other laws of the Subscriber’s jurisdiction.
+				</li>
+			</ol>
+
+			<p>
+				<span class="bold underline"
+					>5. Survival of Representations and Indemnity</span
+				>
+				The representations, warranties and covenants made by the Subscriber
+				herein shall survive the Termination Date of this Agreement. The
+				Subscriber agrees to indemnify and hold harmless the Company and its
+				respective officers, directors and affiliates, and each other person, if
+				any, who controls the Company within the meaning of Section 15 of the
+				Securities Act against any and all loss, liability, claim, damage and
+				expense whatsoever (including, but not limited to, any and all
+				reasonable attorneys’ fees, including attorneys’ fees on appeal) and
+				expenses reasonably incurred in investigating, preparing or defending
+				against any false representation or warranty or breach of failure by the
+				Subscriber to comply with any covenant or agreement made by the
+				Subscriber herein or in any other document furnished by the Subscriber
+				to any of the foregoing in connection with this transaction.
+			</p>
+
+			<p>
+				<span class="bold underline">6. Governing Law; Jurisdiction.</span>
+				This Subscription Agreement shall be governed and construed in
+				accordance with the laws of the State of Delaware.
+			</p>
+			<p>
+				EACH OF THE SUBSCRIBER AND THE COMPANY CONSENTS TO THE JURISDICTION OF
+				ANY STATE OR FEDERAL COURT OF COMPETENT JURISDICTION LOCATED WITHIN
+				DELAWARE AND NO OTHER PLACE AND IRREVOCABLY AGREES THAT ALL ACTIONS OR
+				PROCEEDINGS RELATING TO THIS SUBSCRIPTION AGREEMENT NOT ARISING UNDER
+				THE FEDERAL SECURITIES LAWS MAY BE LITIGATED IN SUCH COURTS. EACH OF
+				SUBSCRIBER AND THE COMPANY ACCEPTS FOR ITSELF AND HIMSELF AND IN
+				CONNECTION WITH ITS AND HIS RESPECTIVE PROPERTIES, GENERALLY AND
+				UNCONDITIONALLY, THE EXCLUSIVE JURISDICTION OF THE AFORESAID COURTS AND
+				WAIVES ANY DEFENSE OF FORUM NON CONVENIENS, AND IRREVOCABLY AGREES TO BE
+				BOUND BY ANY JUDGMENT RENDERED THEREBY IN CONNECTION WITH THIS
+				SUBSCRIPTION AGREEMENT NOT ARISING UNDER THE FEDERAL SECURITIES LAWS.
+				EACH OF SUBSCRIBER AND THE COMPANY FURTHER IRREVOCABLY CONSENTS TO THE
+				SERVICE OF PROCESS OUT OF ANY OF THE AFOREMENTIONED COURTS IN THE MANNER
+				AND IN THE ADDRESS SPECIFIED IN SECTION 7 AND THE SIGNATURE PAGE OF THIS
+				SUBSCRIPTION AGREEMENT.
+			</p>
+			<p>
+				EACH OF THE PARTIES HERETO HEREBY IRREVOCABLY WAIVES ALL RIGHT TO TRIAL
+				BY JURY IN ANY ACTION, PROCEEDING OR COUNTERCLAIM (WHETHER BASED IN
+				CONTRACT, TORT BUT NOT INCLUDING CLAIMS UNDER THE FEDERAL SECURITIES
+				LAWS) ARISING OUT OF OR RELATING TO THIS SUBSCRIPTION AGREEMENT OR THE
+				ACTIONS OF EITHER PARTY IN THE NEGOTIATION, ADMINISTRATION, PERFORMANCE
+				AND ENFORCEMENT THEREOF. EACH OF THE PARTIES HERETO ALSO WAIVES ANY BOND
+				OR SURETY OR SECURITY UPON SUCH BOND WHICH MIGHT, BUT FOR THIS WAIVER,
+				BE REQUIRED OF SUCH PARTY. THIS WAIVER IS IRREVOCABLE, MEANING THAT IT
+				MAY NOT BE MODIFIED EITHER ORALLY OR IN WRITING, AND THIS WAIVER SHALL
+				APPLY TO ANY SUBSEQUENT AMENDMENTS, RENEWALS, SUPPLEMENTS OR
+				MODIFICATIONS TO THIS SUBSCRIPTION AGREEMENT. IN THE EVENT OF
+				LITIGATION, THIS SUBSCRIPTION AGREEMENT MAY BE FILED AS A WRITTEN
+				CONSENT TO A TRIAL BY THE COURT. BY AGREEING TO THIS WAIVER, THE
+				SUBSCRIBER IS NOT DEEMED TO WAIVE THE COMPANY’S COMPLIANCE WITH THE
+				FEDERAL SECURITIES LAWS AND THE RULES AND REGULATIONS PROMULGATED
+				THEREUNDER.
+			</p>
+			<p>
+				<span class="bold underline">7. Notices.</span>
+				Notice, requests, demands and other communications relating to this
+				Subscription Agreement and the transactions contemplated herein shall be
+				in writing and shall be deemed to have been duly given if and when (a)
+				delivered personally, on the date of such delivery; or (b) mailed by
+				registered or certified mail, postage prepaid, return receipt requested,
+				in the third day after the posting thereof; or (c) emailed, telecopied
+				or cabled, on the date of such delivery to the address of the respective
+				parties as follows:
+			</p>
+			<div style="width: auto; max-width: 600px; margin: 0px auto">
+				<span
+					class="inlineBlock"
+					style="padding: 0px 32px">
+					If to the Company, to:<br />
+					Next Thing Technologies Inc<br />
+					2180 Vista Way Unit B, #1096<br />
+					Oceanside, California 92054<br />
+				</span>
+				<span
+					class="inlineBlock"
+					style="padding: 0px 32px">
+					with a required copy to:<br />
+					CrowdCheck Law LLP<br />
+					70012th St NW<br />
+					Washington, District of Columbia 20005<br />
+				</span>
+			</div>
+			<p>
+				If to a Subscriber, to Subscriber’s address as shown on the signature
+				page hereto. or to such other address as may be specified by written
+				notice from time to time by the party entitled to receive such notice.
+				Any notices, requests, demands or other communications by telecopy or
+				cable shall be confirmed by letter given in accordance with (a) or (b)
+				above.
+			</p>
+		</div>
+
+		<!-- page 6 -->
+		<div class="page">
+			<p class="underline bold">8. Miscellaneous</p>
+			<ol class="alpha-list">
+				<li>
+					All pronouns and any variations thereof shall be deemed to refer to
+					the masculine, feminine, neuter, singular or plural, as the identity
+					of the person or persons or entity or entities may require.
+				</li>
+				<li>
+					This Subscription Agreement is not transferable or assignable by
+					Subscriber.
+				</li>
+				<li>
+					The representations, warranties and agreements contained herein shall
+					be deemed to be made by and be binding upon Subscriber and its heirs,
+					executors, administrators and successors and shall inure to the
+					benefit of the Company and its successors and assigns.
+				</li>
+				<li>
+					) None of the provisions of this Subscription Agreement may be waived,
+					changed or terminated orally or otherwise, except as specifically set
+					forth herein or except by a writing signed by the Company and
+					Subscriber.
+				</li>
+				<li>
+					In the event any part of this Subscription Agreement is found to be
+					void or unenforceable, the remaining provisions are intended to be
+					separable and binding with the same effect as if the void or
+					unenforceable part were never the subject of agreement.
+				</li>
+				<li>
+					The invalidity, illegality or unenforceability of one or more of the
+					provisions of this Subscription Agreement in any jurisdiction shall
+					not affect the validity, legality or enforceability of the remainder
+					of this Subscription Agreement in such jurisdiction or the validity,
+					legality or enforceability of this Subscription Agreement, including
+					any such provision, in any other jurisdiction, it being intended that
+					all rights and obligations of the parties hereunder shall be
+					enforceable to the fullest extent permitted by law.
+				</li>
+				<li>
+					This Subscription Agreement supersedes all prior discussions and
+					agreements between the parties with respect to the subject matter
+					hereof and contains the sole and entire agreement between the parties
+					hereto with respect to the subject matter hereof.
+				</li>
+				<li>
+					The terms and provisions of this Subscription Agreement are intended
+					solely for the benefit of each party hereto and their respective
+					successors and assigns, and it is not the intention of the parties to
+					confer, and no provision hereof shall confer, third-party beneficiary
+					rights upon any other person.
+				</li>
+				<li>
+					The headings used in this Subscription Agreement have been inserted
+					for convenience of reference only and do not define or limit the
+					provisions hereof
+				</li>
+				<li>
+					This Subscription Agreement may be executed in any number of
+					counterparts, each of which will be deemed an original, but all of
+					which together will constitute one and the same instrument.
+				</li>
+				<li>
+					If any recapitalization or other transaction affecting the stock of
+					the Company is effected, then any new, substituted or additional
+					securities or other property which is distributed with respect to the
+					Securities shall be immediately subject to this Subscription
+					Agreement, to the same extent that the Securities, immediately prior
+					thereto, shall have been covered by this Subscription Agreement.
+				</li>
+				<li>
+					No failure or delay by any party in exercising any right, power or
+					privilege under this Subscription Agreement shall operate as a waiver
+					thereof nor shall any single or partial exercise thereof preclude any
+					other or further exercise thereof or the exercise of any other right,
+					power or privilege. The rights and remedies herein provided shall be
+					cumulative and not exclusive of any rights or remedies provided by
+					law.
+				</li>
+			</ol>
+		</div>
+
+		<!-- page 7 -->
+		<div class="page">
+			<p class="bold">NEXT THING TECHNOLOGIES, INC</p>
+			<p class="bold">SUBSCRIPTION AGREEMENT SIGNATURE PAGE</p>
+			<p>
+				The undersigned, desiring to purchase Class A Common Stock of Next Thing
+				Technologies, Inc. by executing this signature page, hereby executes,
+				adopts and agrees to all terms, conditions and representations of the
+				Subscription Agreement.
+			</p>
+			<ol class="alpha-list">
+				<li style="position: relative">
+					The number of Class A Common Stock the undersigned hereby irrevocably
+					subscribes for is:
+					<span style="float: right">
+						<span
+							class="inlineBlock"
+							style="width: 100%; border-bottom: 1px solid #000">
+							$
+						</span>
+						<span class="inlineBlock"> (print number of Securities) </span>
+					</span>
+				</li>
+				<li style="position: relative">
+					The aggregate purchase price (based on a purchase price of $3.00 per
+					Security)<br />
+					for the Class A Common Stock the undersigned hereby irrevocably
+					subscribes for is:
+
+					<span style="float: right">
+						<span
+							class="inlineBlock"
+							style="width: 100%; border-bottom: 1px solid #000">
+							$
+						</span>
+						<span class="inlineBlock"> (print aggregate purchase price) </span>
+					</span>
+				</li>
+				<li>
+					The Securities being subscribed for will be owned by, <br />
+					and should be recorded on the Company’s books as held in the name of:
+					<span style="float: right">
+						<span
+							class="inlineBlock"
+							style="width: 100%; border-bottom: 1px solid #000">
+							<!-- ownerName -->
+						</span>
+						<span class="inlineBlock">
+							(print name of owner or joint owners)
+						</span>
+					</span>
+				</li>
+			</ol>
+
+			<div style="position: relative; margin-top: 100px">
+				<div
+					style="width: 45%"
+					class="inlineBlock">
+					<br />
+					<br />
+					<br />
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Signature -->
+							</span>
+							<span class="inlineBlock"> Signature</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Name (Please Print) -->
+							</span>
+							<span class="inlineBlock"> Name (Please Print)</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Email address -->
+							</span>
+							<span class="inlineBlock">Email address</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Address -->
+							</span>
+							<span class="inlineBlock">Address</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Telephone Number -->
+							</span>
+							<span class="inlineBlock">Telephone Number</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Social Security Number/EIN -->
+							</span>
+							<span class="inlineBlock">Social Security Number/EIN</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Date -->
+							</span>
+							<span class="inlineBlock">Date</span>
+						</span>
+					</p>
+				</div>
+				<div
+					style="width: 45%; float: right; border: 1px solid #000; padding: 4px"
+					class="inlineBlock">
+					<p>
+						If the Securities are to be purchased in joint names, both
+						Subscribers must sign:
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Signature -->
+							</span>
+							<span class="inlineBlock"> Signature</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Name (Please Print) -->
+							</span>
+							<span class="inlineBlock"> Name (Please Print)</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Email address -->
+							</span>
+							<span class="inlineBlock">Email address</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Address -->
+							</span>
+							<span class="inlineBlock">Address</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Telephone Number -->
+							</span>
+							<span class="inlineBlock">Telephone Number</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Social Security Number/EIN -->
+							</span>
+							<span class="inlineBlock">Social Security Number/EIN</span>
+						</span>
+					</p>
+					<p>
+						<span>
+							<span
+								class="inlineBlock"
+								style="width: 100%; border-bottom: 2px solid #000">
+								<!-- Date -->
+							</span>
+							<span class="inlineBlock">Date</span>
+						</span>
+					</p>
+				</div>
+			</div>
+
+			<div style="margin-top: 50px; position: relative">
+				<p
+					style="width: 45%"
+					class="inlineBlock">
+					This Subscription is accepted on _____________, 2023
+				</p>
+				<p
+					style="width: 45%; position: absolute; right: 0px"
+					class="inlineBlock">
+					Class A Common StockBy: _____________________
+					<br />
+					<br />
+					<span>
+						<span class="inlineBlock">Name: </span>
+					</span>
+					<br />
+					<br />
+					<span>
+						<span class="inlineBlock">Title: </span>
+					</span>
+				</p>
+			</div>
+		</div>
+
+		<!-- page 8 -->
+		<div class="page">
+			<p class="bold">APPENDIX A</p>
+			<p class="italic">
+				An accredited investor, as defined in Rule 501(a) of the Securities Act
+				of 1933, as amended, includes the following categories of investor:
+			</p>
+			<ol class="number-list">
+				<li>
+					Any bank as defined in section 3(a)(2) of the Act, or any savings and
+					loan association or other institution as defined in section 3(a)(5)(A)
+					of the Act whether acting in its individual or fiduciary capacity; any
+					broker or dealer registered pursuant to section 15 of the Securities
+					Exchange Act of 1934; any investment adviser registered pursuant to
+					section 203 of the Investment Advisers Act of 1940 or registered
+					pursuant to the laws of a state; any investment adviser relying on the
+					exemption from registering with the Commission under section 203(l) or
+					(m) of the Investment Advisers Act of 1940; any insurance company as
+					defined in section 2(a)(13) of the Act; any investment company
+					registered under the Investment Company Act of 1940 or a business
+					development company as defined in section 2(a)(48) of that Act; any
+					Small Business Investment Company licensed by the U.S. Small Business
+					Administration under section 301(c) or (d) of the Small Business
+					Investment Act of 1958; any Rural Business Investment Company as
+					defined in section 384A of the Consolidated Farm and Rural Development
+					Act; any plan established and maintained by a state, its political
+					subdivisions, or any agency or instrumentality of a state or its
+					political subdivisions, for the benefit of its employees, if such plan
+					has total assets in excess of $5,000,000; any employee benefit plan
+					within the meaning of the Employee Retirement Income Security Act of
+					1974 if the investment decision is made by a plan fiduciary, as
+					defined in section 3(21) of such act, which is either a bank, savings
+					and loan association, insurance company, or registered investment
+					adviser, or if the employee benefit plan has total assets in excess of
+					$5,000,000 or, if a self-directed plan, with investment decisions made
+					solely by persons that are accredited investors;
+				</li>
+				<li>
+					Any private business development company as defined in section
+					202(a)(22) of the Investment Advisers Act of 1940;
+				</li>
+				<li>
+					Any organization described in section 501(c)(3) of the Internal
+					Revenue Code, corporation, Massachusetts or similar business trust, or
+					partnership, or limited liability company, not formed for the specific
+					purpose of acquiring the securities offered, with total assets in
+					excess of $5,000,000;
+				</li>
+				<li>
+					Any director, executive officer, or general partner of the issuer of
+					the securities being offered or sold, or any director, executive
+					officer, or general partner of a general partner of that issuer;
+				</li>
+				<li>
+					Any natural person whose individual net worth, or joint net worth with
+					that person's spouse or spousal equivalent, exceeds $1,000,000.
+				</li>
+			</ol>
+			<ol
+				class="roman-bracket-list"
+				style="margin-left: 32px">
+				<li>Except as provided in paragraph (5)</li>
+				<li>
+					of this section, for purposes of calculating net worth under this
+					paragraph (5)
+				</li>
+			</ol>
+
+			<ol
+				type="A"
+				class="alpha-list upper-alpha-list">
+				<li>
+					The person's primary residence shall not be included as an asset;
+				</li>
+				<li>
+					Indebtedness that is secured by the person's primary residence, up to
+					the estimated fair market value of the primary residence at the time
+					of the sale of securities, shall not be included as a liability
+					(except that if the amount of such indebtedness outstanding at the
+					time of sale of securities exceeds the amount outstanding 60 days
+					before such time, other than as a result of the acquisition of the
+					primary residence, the amount of such excess shall be included as a
+					liability); and
+				</li>
+				<li>
+					Indebtedness that is secured by the person's primary residence in
+					excess of the estimated fair market value of the primary residence at
+					the time of the sale of securities shall be included as a liability;
+				</li>
+			</ol>
+			<p>
+				(ii) Paragraph (5) (i) of this section will not apply to any calculation
+				of a person's net worth made in connection with a purchase of securities
+				in accordance with a right to purchase such securities, provided that:
+			</p>
+
+			<ol
+				type="A"
+				class="alpha-list upper-alpha-list">
+				<li>Such right was held by the person on July 20, 2010;</li>
+				<li>
+					The person qualified as an accredited investor on the basis of net
+					worth at the time the person acquired such right; and
+				</li>
+				<li>
+					The person held securities of the same issuer, other than such right,
+					on July 20, 2010.
+				</li>
+			</ol>
+		</div>
+
+		<!-- page 9 -->
+		<div class="page">
+			<p style="position: relative">
+				<span
+					class="inlineBlock"
+					style="padding-right: 12px"
+					>(6)</span
+				>
+				<span
+					class="inlineBlock"
+					style="position: absolute">
+					Any natural person who had an individual income in excess of $200,000
+					in each of the two most recent years or joint income with that
+					person's spouse or spousal equivalent in excess of $300,000 in each of
+					those years and has a reasonable expectation of reaching the same
+					income level in the current year;</span
+				>
+			</p>
+			<br />
+			<p style="position: relative">
+				<span
+					class="inlineBlock"
+					style="padding-right: 12px"
+					>(7)</span
+				>
+				<span
+					class="inlineBlock"
+					style="position: absolute">
+					Any trust, with total assets in excess of $5,000,000, not formed for
+					the specific purpose of acquiring the securities offered, whose
+					purchase is directed by a sophisticated person as described in
+					§230.506(b)(2)(ii);</span
+				>
+			</p>
+			<br />
+			<p style="position: relative">
+				<span
+					class="inlineBlock"
+					style="padding-right: 12px"
+					>(8)</span
+				>
+				<span
+					class="inlineBlock"
+					style="position: absolute"
+					>Any entity in which all of the equity owners are accredited
+					investors;</span
+				>
+			</p>
+			<br />
+			<p style="position: relative">
+				<span
+					class="inlineBlock"
+					style="padding-right: 12px"
+					>(9)</span
+				>
+				<span
+					class="inlineBlock"
+					style="position: absolute"
+					>Any entity, of a type of not listed in paragraphs (1), (2), (3), (7),
+					or (8), not formed for the specific purpose of acquiring the
+					securities offered, owning investments in excess of $5,000,000;</span
+				>
+			</p>
+			<br />
+			<p style="position: relative">
+				<span
+					class="inlineBlock"
+					style="padding-right: 12px"
+					>(10)</span
+				>
+				<span
+					class="inlineBlock"
+					style="position: absolute"
+					>Any natural person holding in good standing one or more professional
+					certifications or designations or credentials from an accredited
+					educational institution that the Commission has designated as
+					qualifying an individual for accredited investor status;
+				</span>
+			</p>
+			<br />
+			<p style="position: relative">
+				<span
+					class="inlineBlock"
+					style="padding-right: 12px"
+					>(11)</span
+				>
+				<span
+					class="inlineBlock"
+					style="position: absolute"
+					>Any natural person who is a “knowledgeable employee,” as defined in
+					rule 3c-5(a)(4) under the Investment Company Act of 1940 (17 CFR
+					270.3c-5 (a)(4)), of the issuer of the securities being offered or
+					sold where the issuer would be an investment company, as defined in
+					section 3 of such act, but for the exclusion provided by either
+					section 3(c)(1) or section 3(c)(7) of such act;
+				</span>
+			</p>
+			<br />
+			<p style="position: relative">
+				<span
+					class="inlineBlock"
+					style="padding-right: 12px"
+					>(12)</span
+				>
+
+				<span
+					class="inlineBlock"
+					style="position: absolute"
+					>Any “family office,” as defined in rule 202(a)(11)(G)-1 under the
+					Investment Advisers Act of 1940 (17 CFR 275.202(a)(11)(G)-1):
+				</span>
+			</p>
+			<ol class="roman-bracket-list">
+				<li>With assets under management in excess of $5,000,000,</li>
+				<li>
+					That is not formed for the specific purpose of acquiring the
+					securities offered, and
+				</li>
+				<li>
+					Whose prospective investment is directed by a person who has such
+					knowledge and experience in financial and business matters that such
+					family office is capable of evaluating the merits and risks of the
+					prospective investment; and
+				</li>
+			</ol>
+			<p style="position: relative">
+				<span
+					class="inlineBlock"
+					style="padding-right: 12px"
+					>(13)</span
+				>
+
+				<span
+					class="inlineBlock"
+					style="position: absolute"
+					>Any “family client,” as defined in rule 202(a)(11)(G)-1 under the
+					Investment Advisers Act of 1940 (17 CFR 275.202(a)(11)(G)-1)), of a
+					family office meeting the requirements in paragraph (12) of this
+					section and whose prospective investment in the issuer is directed by
+					such family office pursuant to paragraph (12)(iii).
+				</span>
+			</p>
+		</div>
+	</body>
+</html>
